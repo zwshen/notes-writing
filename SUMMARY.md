@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Why this collection](README.md)
+* [Outline](README.md)
 
