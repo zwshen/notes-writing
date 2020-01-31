@@ -5,7 +5,7 @@
 ## Green Vocabulary Book
 
 * [Unit 1](green-vocabulary-book/vocabulary-unit1.md)
-* [Unit 2](green-vocabulary-book/vocabular-unit2.md)
+* [Unit 2](green-vocabulary-book/vocabulary-unit2.md)
 
 ## Paper Sentences
 
