@@ -1,9 +1,9 @@
-# How to use this Grammer
+# How to use this Grammar
 
 ## Organization
 
 The main text of the Grammar is divided into ten chapters.
-- chapters 1 adn 2 deal with the noun phrase
+- chapters 1 and 2 deal with the noun phrase
 - chapters 3, 4, and 5 with the verb phrase
 - chapter 6 deals with adverbs and prepositions
 - chapter 7 with reporting
@@ -25,17 +25,17 @@ paragraph headings do not show specifically what the paragraph deals with,
 but indicate information of a different kind. These paragraphs have the
 headings ‘Be careful’, ‘Be Creative’, and ‘Usage Note’.
 
-- ‘Be Careful’ highlights points where people often have problems with a
+- **Be Careful** highlights points where people often have problems with a
 particular grammatical feature of English, for example because it is a feature
 where English is different from many other languages.
-- ‘Be Creative’ indicates that the rule that has been mentioned can be applied in
+- **Be Creative** indicates that the rule that has been mentioned can be applied in
 English to a very large number of words. For example, it is nearly always
-possible to make the -ing participle of a verb into an adjective that is used in
+possible to make the *-ing* participle of a verb into an adjective that is used in
 front of a noun. By taking note of these features, you can use the rules that
 have been presented in a creative and original way, giving you greater
-freedom to express yourself in English. ‘Be Creative’ features are explained in
+freedom to express yourself in English. **‘Be Creative’** features are explained in
 greater detail in the Introduction.
-- ‘Usage Note’ gives information about the use of individual words or small
+- **Usage Note** gives information about the use of individual words or small
 groups of words. This information is important but cannot be generalized into
 a grammatical rule. The Usage Notes help you to understand points that are
 important for the understanding of particular words, rather than points that
@@ -43,7 +43,7 @@ relate to large numbers of words.
 
 
 Most of the **grammatical explanations** are followed by examples showing how
-the structure is used. These examples are all taken from the **Collins corpus**,
+the structure is used. These examples are all taken from the *Collins corpus*,
 and show how the structures are used naturally in speech or writing.
 The examples therefore give important information about the typical use of a
 structure, the words it is frequently used with, and the contexts in which it is likely to occur.
@@ -59,6 +59,4 @@ applied to a small number or a large number of words. If the group is small,
 all members of it are given. If it is large, then the most frequently used words
 are given.
 
-
-**These lists can be used to help you increase your vocabulary** and to check that
-you are using newly learned English words correctly.
+**These lists can be used to help you increase your vocabulary** and to check that you are using newly learned English words correctly.
