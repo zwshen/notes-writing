@@ -140,7 +140,7 @@ On the one hand, she argues ______. On the other hand, she also says ______.
 - Yet some readers may challenge the view that ______.
 - Of course, many will probably disagree with this assertion that ______.
 
-# naming your naysayers (pp. 83–84)
+## naming your naysayers (pp. 83–84)
 - Here many would probably object that ______.
 - But ______ would certainly take issue with the argument that ______.
 - ______, of course, may want to question whether ______.
