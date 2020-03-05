@@ -7,10 +7,17 @@
 * To establish the structural thinking in organizing a writing work.
 * To establish the mindset of why you should learn writing skill.
 
-## 研究論文句型 Paper Sentences
+## 句型 Sentences Templates
 
-* 關鍵句型 [Sentence Patterns](paper-sentences/sentence-patterns.md)
-* 搭配詞 [Collocation Patterns](paper-sentences/collocation-patterns.md)
+* 關鍵句型 [Sentence Patterns](sentences-templates/sentence-patterns.md)
+* 搭配詞 [Collocation Patterns](sentences-templates/collocation-patterns.md)
+
+* [They Say, I Say templates](sentences-templates/they-say-I-say.md)
+
+* [組成論文架構的基本句型](sentences-templates/research-paper-sentences-01.md)
+* [適切且明確地推論的句型](sentences-templates/research-paper-sentences-02.md)
+* [連接句子的慣用語](sentences-templates/research-paper-sentences-03.md)
+
 
 ## 結構化寫作 Structural Writing
 
