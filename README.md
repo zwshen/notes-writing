@@ -1,6 +1,6 @@
 # Introduction
 
-## Why this book
+## Why this project
 
 * Collections of sentence patterns
 * To improve the efficiency in writing emails and documentations.
@@ -18,16 +18,12 @@
 * [適切且明確地推論的句型](sentences-templates/research-paper-sentences-02.md)
 * [連接句子的慣用語](sentences-templates/research-paper-sentences-03.md)
 
-
-## 結構化寫作 Structural Writing
-
-* [Structural Writing](structure/structural-writing.md)
-
-## Writing Lessons
-
-* [Writing Lessons](writing-lessons/writing-lessons.md)
-
 ## Green Vocabulary Book
 
 * [Unit 1](green-vocabulary-book/vocabulary-unit1.md)
 * [Unit 2](green-vocabulary-book/vocabulary-unit2.md)
+
+## References
+
+* [結構化寫作Structural Writing](structure/structural-writing.md)
+* [寫作課 Writing Lessons](writing-lessons/writing-lessons.md)
