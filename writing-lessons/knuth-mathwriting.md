@@ -27,7 +27,7 @@ The authors wish to thank Phyllis Winkler for the first-rate technical typing th
 Caveat: These are transcripts of lectures, not a polished set of essays on the subject. Some of the later
 lectures refer to mistakes in the notes of earlier lectures; we have decided to correct some (but not all) of those mistakes before printing this report. References to such no-longer-existent blunders might be hard to understand. Understand?
 
-警告：這些是講座的成績單，而不是對受試者的拋光散文集。一些後來 講座是指早期講座的票據中的錯誤;在打印本報告之前，我們決定糾正一些（但不是全部）這些錯誤。對此沒有更長的空白的引用可能很難理解。理解？
+警告：這些是講座的講稿，而不是對受試者的拋光散文集。一些後來 講座是指早期講座的票據中的錯誤;在打印本報告之前，我們決定糾正一些（但不是全部）這些錯誤。對此沒有更長的空白的引用可能很難理解。理解？
 
 Videotapes of the class sessions are kept in the Mathematical & Computer Sciences Library at Stanford.
 
