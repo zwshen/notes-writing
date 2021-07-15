@@ -13,8 +13,8 @@ The following points are especially important, in your instructor’s view:
 
 1. Symbols in different formulas must be separated by words.
 
-* Bad: Consider: $Sq$, $q < p$.
-* Good: Consider $Sq$, where $q<p$.
+* Bad: Consider: $Sq$, $q < p$.
+* Good: Consider $Sq$, where $q<p$.
 
 2. Don’t start a sentence with a symbol.
 
@@ -63,7 +63,7 @@ Avoid words like “this” or “also” in consecutive sentences; such words, 
 
 10. Don’t use the style of homework papers, in which a sequence of formulas is merely listed. Tie the concepts together with a running commentary.
 
-11. Try to state things twice, in complementary ways, especially when giving a definition. This reinforces the reader’s understanding. (Examples, see §2 below: $N^n$ is defined twice, $An$ is described as “nonincreasing”, $L(C,P)$ is characterized as the smallest subset of a certain type.) All variables must be defined, at least informally, when they are first introduced.
+11. Try to state things twice, in complementary ways, especially when giving a definition. This reinforces the reader’s understanding. (Examples, see §2 below: $N^n$ is defined twice, $An$ is described as “nonincreasing”, $L(C,P)$ is characterized as the smallest subset of a certain type.) All variables must be defined, at least informally, when they are first introduced.
 
 12. Motivate the reader for what follows. In the example of §2, Lemma 1 is motivated by the fact that its converse is true. Definition 1 is motivated only by decree; this is somewhat riskier.
 
@@ -75,9 +75,9 @@ When describing your own work, be humble and don’t use superlatives of praise,
 
 13. Many readers will skim over formulas on their first reading of your exposition. Therefore, your sentences should flow smoothly when all but the simplest formulas are replaced by “blah” or some other grunting noise.
 
-14. Don’t use the same notation for two different things. Conversely, use consistent notation for the same thing when it appears in several places. For example, don’t say “$Aj$ for $1jn$” in one place and “$Ak$ for ${1kn}$” in another place unless there is a good reason. It is often useful to choose names for indices so that $i$ varies from $1$ to $m$ and $j$ from $1$ to $n$, say, and to stick to consistent usage. Typographic conventions (like lowercase letters for elements of sets and uppercase for sets) are also useful.
+14. Don’t use the same notation for two different things. Conversely, use consistent notation for the same thing when it appears in several places. For example, don’t say “$A_j$ for $1 \leq j \leq n$” in one place and “$A_k$ for ${1 \leq k \leq n}$” in another place unless there is a good reason. It is often useful to choose names for indices so that $i$ varies from $1$ to $m$ and $j$ from $1$ to $n$, say, and to stick to consistent usage. Typographic conventions (like lowercase letters for elements of sets and uppercase for sets) are also useful.
 
-15. Don’t get carried away by subscripts, especially when dealing with a set that doesn’t need to be indexed; set element notation can be used to avoid subscripted subscripts. For example, it is often troublesome to start out with a definition like “Let $X=\{x1,\ldotss,xn\}$” if you’re going to need subsets of $X$, since the subset will have to defined as $\{x{i1},\ldotss,x{im}\}$, say. Also you’ll need to be speaking of elements $xi$ and $xj$ all the time. Don’t name the elements of $X$ unless necessary. Then you can refer to elements $x$ and $y$ of $X$ in your subsequent discussion, without needing subscripts; or you can refer to $x1$ and $x2$ as specified elements of $X$.
+15. Don’t get carried away by subscripts, especially when dealing with a set that doesn’t need to be indexed; set element notation can be used to avoid subscripted subscripts. For example, it is often troublesome to start out with a definition like “Let $X=\{x_1,\dots,x_n\}$” if you’re going to need subsets of $X$, since the subset will have to defined as $\{x_{i1},\dots, x_{im}\}$, say. Also you’ll need to be speaking of elements $x_i$ and $x_j$ all the time. Don’t name the elements of $X$ unless necessary. Then you can refer to elements $x$ and $y$ of $X$ in your subsequent discussion, without needing subscripts; or you can refer to $x_1$ and $x_2$ as specified elements of $X$.
 
 16. Display important formulas on a line by themselves. If you need to refer to some of these formulas from remote parts of the text, give reference numbers to all of the most important ones, even if they aren’t referenced.
 
@@ -92,8 +92,8 @@ When describing your own work, be humble and don’t use superlatives of praise,
 
 20. Some handy maxims:
 
-* Watch out for prepositions that sentences end with. 
-* When dangling, consider your participles. 
+* Watch out for prepositions that sentences end with.
+* When dangling, consider your participles.
 * About them sentence fragments.
 * Make each pronoun agree with their antecedent.
 * Don’t use commas, which aren’t necessary.
@@ -112,8 +112,8 @@ When describing your own work, be humble and don’t use superlatives of praise,
 * category not catagory
 * consistent not consistant
 * PL/I not PL/1
-* descendant (noun)  not descendent 
-* its (belonging to it) not it’s (it is) 
+* descendant (noun)  not descendent
+* its (belonging to it) not it’s (it is)
 
 The following words are no longer being hyphenated in current literature:
 
@@ -140,9 +140,9 @@ The following words are no longer being hyphenated in current literature:
 > $$
 > and those colons are wrong.
 
-24.  The opening paragraph should be your best paragraph, and its first sentence should be your best sentence. If a paper starts badly, the reader will wince and be resigned to a difficult job of fighting with your prose. Conversely, if the beginning flows smoothly, the reader will be hooked and won’t notice occasional lapses in the later parts. 
+24.  The opening paragraph should be your best paragraph, and its first sentence should be your best sentence. If a paper starts badly, the reader will wince and be resigned to a difficult job of fighting with your prose. Conversely, if the beginning flows smoothly, the reader will be hooked and won’t notice occasional lapses in the later parts.
 
-    Probably the worst way to start is with a sentence of the form “An $x$ is $y$.” For example,
+Probably the worst way to start is with a sentence of the form “An $x$ is $y$.” For example,
 
 * Bad: An important method for internal sorting is quicksort.
 * Good: Quicksort is an important method for internal sorting, because $\ldots$
@@ -150,17 +150,17 @@ The following words are no longer being hyphenated in current literature:
 * Bad: A commonly used data structure is the priority queue.
 * Good: Priority queues are significant components of the data structures needed for many different applications.
 
-25.: The normal style rules for English say that commas and periods should be placed inside quotation marks, but other punctuation (like colons, semicolons, question marks, exclamation marks) stay outside the quotation marks unless they are part of the quotation. It is generally best to go along with this illogical convention about commas and periods, because it is so well established, except when you are using quotation marks to describe some text as a specific string of symbols. For example,
+25. The normal style rules for English say that commas and periods should be placed inside quotation marks, but other punctuation (like colons, semicolons, question marks, exclamation marks) stay outside the quotation marks unless they are part of the quotation. It is generally best to go along with this illogical convention about commas and periods, because it is so well established, except when you are using quotation marks to describe some text as a specific string of symbols. For example,
 
 * Good: Always end your program with the word “end”.
 
-  
+
 
   On the other hand, punctuation should always be strictly logical with respect to parentheses and brackets. Put a period inside parentheses if and only if the sentence ending with that period is entirely within the parentheses. The punctuation within parentheses should be correct, independently of the outside context, and the punctuation outside the parentheses should be correct if the parenthesized statement would be removed.
 
 * Bad:: This is bad, (although intentionally so.)
 
-26. Resist the temptation to use long strings of nouns as adjectives: consider the packet switched data communication network protocol problem.
+26.  Resist the temptation to use long strings of nouns as adjectives: consider the packet switched data communication network protocol problem.
 
     In general, don’t use jargon unnecessarily. Even specialists in a field get more pleasure from papers that use a nonspecialist’s vocabulary.
 
@@ -170,13 +170,11 @@ $$
 \exists_{n_0 \in N_0} \forall_{p \in P} p \ge n_0 \implies f(p)= 0
 $$
 
-
-
-then there exists a bijection $N_1 \rightarrow L^{+}(P,N_0)$ such that if $n\mapsto f$ then
+then there exists a bijection $N_1 \rightarrow L^{+} (P,N_0)$ such that if $n\mapsto f$ then
 $$
 n = \prod_{p\in P} p^{f(p)}.
 $$
- Here $P$ is the prime numbers and $N1=N0 \sim \{0\}$.”
+ Here $P$ is the prime numbers and $N_1 = N_0 \sim \{0\}$.”
 
 * Better: "According to the ‘fundamental theorem of arithmetic’ (proved in ex. ), each positive integer $u$ can be expressed in the form
 
@@ -184,7 +182,7 @@ $$
 u=2^{u2}3^{u3}5^{u5}7^{u7}11^{u11} \dots = \prod_{p prime}p^{up},
 $$
 
-where the exponents $u2,u3,\dots$ are uniquely determined nonnegative integers, and where all but a finite number of the exponents are zero.”
+where the exponents $u2,u3,\dots$ are uniquely determined nonnegative integers, and where all but a finite number of the exponents are zero.”
 
 [The first quotation is from Carl Linderholm’s neat satirical book *Mathematics Made Difficult*; the second is from D. Knuth’s *Seminumerical Algorithms*, Section 4.5.2.]
 
@@ -195,4 +193,3 @@ where the exponents $u2,u3,\dots$ are uniquely determined nonnegative integers
 >  “... $\emptyset D = \emptyset$ and $N\emptyset =N$, which we may express by saying that $\emptyset$ is absorbing on the left and neutral on the right, like British toilet paper.”
 
 Try to restrict yourself to jokes that will not seem silly on second or third reading. And don’t overuse exclamation points!]
-

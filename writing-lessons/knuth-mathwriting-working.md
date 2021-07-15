@@ -118,9 +118,9 @@ view:
 
 1.: Symbols in different formulas must be separated by words.
 
-: Bad:: Consider $Sq$, $q < p$.
+: Bad:: Consider $Sq$, $q < p$.
 
-: Good:: Consider $Sq$, where $q<p$.
+: Good:: Consider $Sq$, where $q<p$.
 
 2.: Don’t start a sentence with a symbol.
 
@@ -207,7 +207,7 @@ commentary.
 
 11.: Try to state things twice, in complementary ways, especially when
 giving a definition. This reinforces the reader’s understanding.
-(Examples, see §2 below: $N^n$ is defined twice, $An$ is described as
+(Examples, see §2 below: $N^n$ is defined twice, $An$ is described as
 “nonincreasing”, $L(C,P)$ is characterized as the smallest subset of a
 certain type.) All variables must be defined, at least informally, when
 they are first introduced.
@@ -237,8 +237,8 @@ noise.
 
 14.: Don’t use the same notation for two different things. Conversely,
 use consistent notation for the same thing when it appears in several
-places. For example, don’t say “$Aj$ for $1jn$” in one place and
-“$Ak$ for ${1kn}$” in another place unless there is a good reason. It
+places. For example, don’t say “$Aj$ for $1jn$” in one place and
+“$Ak$ for ${1kn}$” in another place unless there is a good reason. It
 is often useful to choose names for indices so that $i$ varies from $1$
 to $m$ and $j$ from $1$ to $n$, say, and to stick to consistent usage.
 Typographic conventions (like lowercase letters for elements of sets and
@@ -247,13 +247,13 @@ uppercase for sets) are also useful.
 15.: Don’t get carried away by subscripts, especially when dealing with
 a set that doesn’t need to be indexed; set element notation can be used
 to avoid subscripted subscripts. For example, it is often troublesome to
-start out with a definition like “Let $X=\{x1,\ldotss,xn\}$” if you’re
+start out with a definition like “Let $X=\{x1,\dots,xn\}$” if you’re
 going to need subsets of $X$, since the subset will have to defined as
-$\{x{i1},\ldotss,x{im}\}$, say. Also you’ll need to be speaking of
-elements $xi$ and $xj$ all the time. Don’t name the elements of $X$
+$\{x{i1},\dots,x{im}\}$, say. Also you’ll need to be speaking of
+elements $xi$ and $xj$ all the time. Don’t name the elements of $X$
 unless necessary. Then you can refer to elements $x$ and $y$ of $X$ in
 your subsequent discussion, without needing subscripts; or you can refer
-to $x1$ and $x2$ as specified elements of $X$.
+to $x1$ and $x2$ as specified elements of $X$.
 
 16.: Display important formulas on a line by themselves. If you need to
 refer to some of these formulas from remote parts of the text, give
@@ -322,7 +322,7 @@ preceding displayed equations (1) and (2) does not use any special
 punctuation. Many people would have written
 
 :: $\ldots$ of “nonincreasing” vectors:
-$$An = \leftset(a1,\ldotss,an) \in N^n \relv a1  \cdots  an\rightset.
+$$An = \leftset(a1,\dots,an) \in N^n \relv a1  \cdots  an\rightset.
     \eqno(1)$$ :: If $C$ and $P$ are subsets of $N^n$, let:
 $$L(C,P)=\ldots$$ :: and those colons are wrong.
 
@@ -376,28 +376,28 @@ problem.
 field get more pleasure from papers that use a nonspecialist’s
 vocabulary.
 
-: Bad:: \`\`If $\hbox{\bf L}^{\scriptscriptstyle +}(P,N0)$
-is the set of functions $f\colon PN0$ with the property that
+: Bad:: \`\`If $\hbox{\bf L}^{\scriptscriptstyle +}(P,N0)$
+is the set of functions $f\colon PN0$ with the property that
 
-$$\backe{n0 \in N0} \;\suchthat\; \upsidea{p\in P} p
-      n0 \ f(p)=0$$
+$$\backe{n0 \in N0} \;\suchthat\; \upsidea{p\in P} p
+      n0 \ f(p)=0$$
 
-:: then there exists a bijection $N1 
-    \hbox{\bf L}^{\scriptscriptstyle +}(P,N0)$ such that if
+:: then there exists a bijection $N1 
+    \hbox{\bf L}^{\scriptscriptstyle +}(P,N0)$ such that if
 $n\mapsto f$ then
 
-$$n = \prod{p\in P} p^{f(p)}.$$
+$$n = \prod{p\in P} p^{f(p)}.$$
 
-:: Here $P$ is the prime numbers and $N1=N0 \sim \{0\}$.”
+:: Here $P$ is the prime numbers and $N1=N0 \sim \{0\}$.”
 
 : Better:: \`\`According to the ‘fundamental theorem of
 arithmetic’ (proved in ex. ), each positive integer $u$ can be expressed
 in the form
 
-$$u=2^{u2}3^{u3}5^{u5}7^{u7}11^{u{11}}\ldotss
-  = \prod{p \rm\;prime}p^{up},$$
+$$u=2^{u2}3^{u3}5^{u5}7^{u7}11^{u{11}}\dots
+  = \prod{p \rm\;prime}p^{up},$$
 
-:: where the exponents $u2,u3,\ldotss$ are uniquely determined
+:: where the exponents $u2,u3,\dots$ are uniquely determined
 nonnegative integers, and where all but a finite number of the exponents
 are zero.”
 
@@ -424,46 +424,46 @@ or third reading. And don’t overuse exclamation points!]
 
 In the following excerpt from a term paper, $N$ denotes the nonnegative
 integers, $N^n$ denotes the set of $n$-tuples of nonnegative integers,
-and $An = \{(a1,\ldotss,an)\in N^n \relv a1  \cdots  an\}$. If
+and $An = \{(a1,\dots,an)\in N^n \relv a1  \cdots  an\}$. If
 $C, P \subset N^n$, then $L(C,P)$ is defined to be
-$\{c+p1+\cdots +pm \relv c\in C$, $m  0$, and $pj\in P$ for
-${1jm}\}$. We want to prove that $L(C,P) \subseteq An$ implies
-$C,P \subseteq An$.
+$\{c+p1+\cdots +pm \relv c\in C$, $m  0$, and $pj\in P$ for
+${1jm}\}$. We want to prove that $L(C,P) \subseteq An$ implies
+$C,P \subseteq An$.
 
 The following proof, directly quoted from a sophomore term paper, is
 mathematically correct (except for a minor slip) but stylistically
 atrocious:
 
-: $L(C,P) \subset An$ $C \subset L \ C \subset An$ Spse
-$ p\in P, \;p\notin An \ pi < pj$ for $i<j$ $c+p \in L \subset An$
-$\therefore  ci+pi  cj+pj$ but $ci cj0, pjpi \therefore
-  (ci-cj)  (pj-pi)$ but $$ a constant
-$k \suchthat  c+kp \notin An$ let
-$k = (ci-cj)+1 \qquad c+kp \in L \subset An$
-$\therefore  ci+kpi  cj+kpj \ (ci-cj)  k(pj-pi)$
+: $L(C,P) \subset An$ $C \subset L \ C \subset An$ Spse
+$ p\in P, \;p\notin An \ pi < pj$ for $i<j$ $c+p \in L \subset An$
+$\therefore  ci+pi  cj+pj$ but $ci cj0, pjpi \therefore
+  (ci-cj)  (pj-pi)$ but $$ a constant
+$k \suchthat  c+kp \notin An$ let
+$k = (ci-cj)+1 \qquad c+kp \in L \subset An$
+$\therefore  ci+kpi  cj+kpj \ (ci-cj)  k(pj-pi)$
 $\ k-1  k \cdot m \qquad k,m  1$ Contradiction
-$\therefore  p \in An$
-$\therefore  L(C,P) \subset An \ C,P \subset An$ and the lemma is
+$\therefore  p \in An$
+$\therefore  L(C,P) \subset An \ C,P \subset An$ and the lemma is
 true.
 
 Let $N$ denote the set of nonnegative integers, and let
-$$N^n = \{\,(b1,\ldotss,bn) \relv bi \in N \hbox{ for }1in\,\}$$ be
+$$N^n = \{\,(b1,\dots,bn) \relv bi \in N \hbox{ for }1in\,\}$$ be
 the set of $n$-dimensional vectors with nonnegative integer components.
 We shall be especially interested in the subset of “nonincreasing”
 vectors,
-$$An = \leftset(a1,\ldotss,an) \in N^n \relv a1  \cdots  an\rightset.
+$$An = \leftset(a1,\dots,an) \in N^n \relv a1  \cdots  an\rightset.
     \eqno(1)$$
 
 If $C$ and $P$ are subsets of $N^n$, let
-$$L(C,P) = \leftset c+p1+ \cdots +pm \relv c \in C, m0,\,\,
-    \hbox{and}\,\, pj \in P \,\, \hbox{for}\,\, 1jm\rightset \eqno(2)$$
+$$L(C,P) = \leftset c+p1+ \cdots +pm \relv c \in C, m0,\,\,
+    \hbox{and}\,\, pj \in P \,\, \hbox{for}\,\, 1jm\rightset \eqno(2)$$
 be the smallest subset of $N^n$ that contains $C$ and is closed under
-the addition of elements of $P$. Since $An$ is closed under addition,
-$L(C,P)$ will be a subset of $An$ whenever $C$ and $P$ are both
-contained in $An$. We can also prove the converse of this statement.
+the addition of elements of $P$. Since $An$ is closed under addition,
+$L(C,P)$ will be a subset of $An$ whenever $C$ and $P$ are both
+contained in $An$. We can also prove the converse of this statement.
 
-Lemma 1. If $L(C,P) \subseteq An$ and $C\emptyset$, then
-$C \subseteq An$ and $P \subseteq An$.
+Lemma 1. If $L(C,P) \subseteq An$ and $C\emptyset$, then
+$C \subseteq An$ and $P \subseteq An$.
 
 Proof. (Now it’s your turn to write it up beautifully.)
 
@@ -473,28 +473,28 @@ Here is one way to complete the exercise in the previous section. (But
 please try to work it yourself before reading this.) Note
 that a few clauses have been inserted to help keep the reader
 synchronized with the current goals and subgoals and strategies of the
-proof. Furthermore the notation $(b1,\ldotss,bn)$ is used instead of
-$(p1,\ldotss,pn)$, in the second paragraph below, to avoid confusion
+proof. Furthermore the notation $(b1,\dots,bn)$ is used instead of
+$(p1,\dots,pn)$, in the second paragraph below, to avoid confusion
 with formula (2).
 
-Proof. Assume that $L(C,P) \subseteq An$. Since $C$ is always contained
-in $L(C,P)$, we must have ${C \subseteq An}$; therefore only the
-condition $P \subseteq An$ needs to be verified.
+Proof. Assume that $L(C,P) \subseteq An$. Since $C$ is always contained
+in $L(C,P)$, we must have ${C \subseteq An}$; therefore only the
+condition $P \subseteq An$ needs to be verified.
 
-If $P$ is not contained in $An$, there must be a vector
-$(b1,\ldotss,bn) \in P$ such that $bi < bj$ for some $i<j$. We want
+If $P$ is not contained in $An$, there must be a vector
+$(b1,\dots,bn) \in P$ such that $bi < bj$ for some $i<j$. We want
 to show that this leads to a contradiction.
 
 Since the set $C$ is nonempty, it contains some element
-$(c1,\ldotss,cn)$. We know that the components of this vector satisfy
-$c1\cdotscn$, because ${C\subseteq An}$.
+$(c1,\dots,cn)$. We know that the components of this vector satisfy
+$c1\cdotscn$, because ${C\subseteq An}$.
 
-Now $(c1,\ldotss,cn)+k(b1,\ldotss,bn)$ is an element of $L(C,P)$ for
-all $k0$, and by hypothesis it must therefore be an element of $An$.
-But if we take $k=ci-cj+1$, we have $k1$ and $$ci+kbicj+kbj,$$
-hence $$ci-cjk(bj-bi).\eqno(3)$$ This is impossible, since
-$ci-cj=k-1$ is less than $k$, yet $bj-bi1$. It follows that
-$(b1,\ldotss,bn)$ must be an element of $An$. 
+Now $(c1,\dots,cn)+k(b1,\dots,bn)$ is an element of $L(C,P)$ for
+all $k0$, and by hypothesis it must therefore be an element of $An$.
+But if we take $k=ci-cj+1$, we have $k1$ and $$ci+kbicj+kbj,$$
+hence $$ci-cjk(bj-bi).\eqno(3)$$ This is impossible, since
+$ci-cj=k-1$ is less than $k$, yet $bj-bi1$. It follows that
+$(b1,\dots,bn)$ must be an element of $An$. 
 
 Note that the hypothesis $C\emptyset$ is necessary in Lemma 1, for if
 $C$ is empty the set $L(C,P)$ is also empty regardless of $P$.
@@ -504,21 +504,21 @@ above actually commits another sin against mathematical exposition,
 namely the unnecessary use of proof by contradiction. It would have been
 better to use a direct proof:
 
-Let $(b1,\ldotss,bn)$ be an arbitrary element of $P$, and let $i$ and
-$j$ be fixed subscripts with $i<j$; we wish to prove that $bibj$.
-Since $C$ is nonempty, it contains some element $(c1,\ldotss,cn)$. Now
-the vector $(c1,\ldotss,cn)+k(b1,\ldotss,bn)$ is an element of
+Let $(b1,\dots,bn)$ be an arbitrary element of $P$, and let $i$ and
+$j$ be fixed subscripts with $i<j$; we wish to prove that $bibj$.
+Since $C$ is nonempty, it contains some element $(c1,\dots,cn)$. Now
+the vector $(c1,\dots,cn)+k(b1,\dots,bn)$ is an element of
 $L(C,P)$ for all $k0$, and by hypothesis it must therefore be an
-element of $An$. But this means that $ci+kbi  cj+kbj$, i.e.,
-$$ci-cj  k(bj-bi),\eqno(3)$$ for arbitrarily large $k$.
-Consequently $bj-bi$ must be zero or negative.
+element of $An$. But this means that $ci+kbi  cj+kbj$, i.e.,
+$$ci-cj  k(bj-bi),\eqno(3)$$ for arbitrarily large $k$.
+Consequently $bj-bi$ must be zero or negative.
 
-We have proved that $bj-bi0$ for all $i<j$, so the vector
-$(b1,\ldotss,bn)$ must be an element of $An$.
+We have proved that $bj-bi0$ for all $i<j$, so the vector
+$(b1,\dots,bn)$ must be an element of $An$.
 
 This form of the proof has other virtues too: It doesn’t assume that the
-$bi$’s are integer-valued, and it doesn’t require stating that
-$c1\cdots cn$.
+$bi$’s are integer-valued, and it doesn’t require stating that
+$c1\cdots cn$.
 
 4. [Comments on student answers (1)] October 7
 
@@ -562,8 +562,8 @@ better to use $p$ with a subscript of $r$. As another example, it is not
 appropriate to use a star ($\ast$) to denote multiplication in a paper
 about mathematics. Just say $xy$.
 
-:: Some people called $p$ an element of $P$ and $pr$ an element of $p$.
-Everything was an “element.” It’s better to call $pr$ a “component”
+:: Some people called $p$ an element of $P$ and $pr$ an element of $p$.
+Everything was an “element.” It’s better to call $pr$ a “component”
 of $p$, thus distinguishing two kinds of subsidiary relationships.
 
 :: It is natural in mathematics to hold off some aspects of your
@@ -574,7 +574,7 @@ subjective matter.
 
 :: Remember to put words between adjacent formulas.
 
-:: When you use ellipses, such as $(P1,\ldots, Pn)$, remember to put
+:: When you use ellipses, such as $(P1,\ldots, Pn)$, remember to put
 commas before and after the three dots. When placing ellipses between
 commas the three dots belong on the same level as the commas, but when
 the ellipsis is bracketed by symbols such as ‘$+$’ or ‘$<$’ the dots
@@ -599,7 +599,7 @@ and helpful vocabulary.
 
 :: Numbering all displayed formulas is usually a bad idea; number the
 important ones only. Extraneous parentheses can also be distracting. For
-example, in the phrase “let $k$ be $(ci-cj)+1$,” the parentheses
+example, in the phrase “let $k$ be $(ci-cj)+1$,” the parentheses
 should be omitted.
 
 :: You can overdo the use of any good tool. For instance, you could
@@ -720,14 +720,14 @@ checkers.
 :: Allowing formulas to get so long that they do not format well or are
 unnecessarily confusing “violates the principle of ‘name and conquer’
 that makes mathematics readable.” For example,
-‘$v = c + u(ci - cj + 1)$’ should be ‘$v = c + ku$, where
-$k = ci - cj + 1$’, if you’re going to do a lot of formula
-manipulation in which $ci-cj+1$ remains as a unit.
+‘$v = c + u(ci - cj + 1)$’ should be ‘$v = c + ku$, where
+$k = ci - cj + 1$’, if you’re going to do a lot of formula
+manipulation in which $ci-cj+1$ remains as a unit.
 
 :: Be stingy with your quotation marks. “Three cute things in quotes is
 a little too cute.”
 
-:: Remember to minimize subscripts. For example, ‘$pi$ is an element
+:: Remember to minimize subscripts. For example, ‘$pi$ is an element
 of $P$’ could more easily be ‘$p$ is an element of $P$’.
 
 :: Remember to capitalize words like theorem and lemma in titles like
@@ -762,8 +762,8 @@ mathematical readers, but it is considered formal by younger members of
 the audience.
 
 :: Be precise in your wording. If you mean “not nonincreasing,” don’t
-say “increasing”; the former means that $pj<p{j+1}$ for
-*some* $j$, while the latter that $pj<p{j+1}$ for
+say “increasing”; the former means that $pj<p{j+1}$ for
+*some* $j$, while the latter that $pj<p{j+1}$ for
 *all* $j$.
 
 :: Mixed tenses on the same subject are awkward. For example, “We assume
@@ -781,11 +781,11 @@ especially easy-to-read proof contained the phrases “The operative word
 is zero,” “The lemma is half proved,” and “We divide the proof into two
 parts, first proving blah\> and then proving grunt\>.”
 
-:: You can give relations in two ways, either saying ‘$pi<pj$’ or
-‘$pj>pi$’. The latter is for “people who are into dominance,” Don
+:: You can give relations in two ways, either saying ‘$pi<pj$’ or
+‘$pj>pi$’. The latter is for “people who are into dominance,” Don
 says, but the former is much easier for a reader to visualize after
-you’ve just said ‘$p=(p1,p2,\ldots,pn)$ and $i<j$’. Similarly, don’t
-say ‘$i<j$ and $pj<pi$’; keep $i$ and $j$ in the same relative
+you’ve just said ‘$p=(p1,p2,\ldots,pn)$ and $i<j$’. Similarly, don’t
+say ‘$i<j$ and $pj<pi$’; keep $i$ and $j$ in the same relative
 position.
 
 ​6. [Preparing books for publication (1)] October 12
@@ -994,13 +994,13 @@ thought of this one. Sounds like a neat idea.
 The formula
 
 :(Before):
-$\displaystyle{\sum{km}{r\choose k}\left(k-{r\over 2}\right)
+$\displaystyle{\sum{km}{r\choose k}\left(k-{r\over 2}\right)
 =-{m+1\over 2}{r\choose m+1}}$
 
 :: looks a bit confusing because of the minus sign on the right, so Don
 changed it to
 
-:(After): $\displaystyle{\sum{km}{r\choose k}\left({r\over 2}-k\right)
+:(After): $\displaystyle{\sum{km}{r\choose k}\left({r\over 2}-k\right)
 ={m+1\over 2}{r\choose m+1}\,.}$
 
 There may be many ways to write a formula; you have the freedom to
@@ -1009,13 +1009,13 @@ where a reference to ‘the factor $(k-r/2)$’ had to be changed to ‘the
 factor $(r/2-k)$’.)
 
 Somebody saw an integral sign on that page and asked about the relative
-merits of $$\int{-}^af(x)\,dx$$ versus other notations like
-$$\int\limits{-}^af(x)\,dx\qquad\qquad
-\int\limits{x=-}^{x=a}f(x)\,dx\,.$$ Don said that putting limits above
+merits of $$\int{-}^af(x)\,dx$$ versus other notations like
+$$\int\limits{-}^af(x)\,dx\qquad\qquad
+\int\limits{x=-}^{x=a}f(x)\,dx\,.$$ Don said that putting limits above
 and below, instead of at the right, traded vertical space for horizontal
 space, so it depends on how wide your formulas are. Both forms are used.
 Whichever form you adopt should be consistent throughout an entire book.
-Somebody suggested $$\int{\hskip-32pt x=-\,}^{x=a}f(x)\,dx$$ but Don
+Somebody suggested $$\int{\hskip-32pt x=-\,}^{x=a}f(x)\,dx$$ but Don
 pooh-poohed this.
 
 He said that major writing projects each have their own style; you get
@@ -2207,56 +2207,56 @@ point. What is the best way to present Sierpiński’s theorem?
 
 Lemma. There is a one-to-one correspondence between the set of all real
 numbers $\alpha$ and the set of all pairs
-$(\langle nk\rangle, \langle tk\rangle)$, where
-$\langle nk\rangle{k1}$ is an increasing sequence of positive
-integers and $\langle tk\rangle{k1}$ is a sequence of real numbers.
+$(\langle nk\rangle, \langle tk\rangle)$, where
+$\langle nk\rangle{k1}$ is an increasing sequence of positive
+integers and $\langle tk\rangle{k1}$ is a sequence of real numbers.
 
-The sequences $\langle nk\rangle$ and $\langle tk\rangle$
-corresponding to $\alpha$ are called $\langle nk^{\alpha}\rangle$ and
-$\langle tk^{\alpha}\rangle$. The set of real numbers is
+The sequences $\langle nk\rangle$ and $\langle tk\rangle$
+corresponding to $\alpha$ are called $\langle nk^{\alpha}\rangle$ and
+$\langle tk^{\alpha}\rangle$. The set of real numbers is
 called **R**.
 
-Theorem. Assume that $\langle A{\alpha}\rangle{\alpha\in{\bf R}}$ is a
+Theorem. Assume that $\langle A{\alpha}\rangle{\alpha\in{\bf R}}$ is a
 family of countably infinite subsets of **R** such that,
-for $\alpha\beta$, either $\alpha\in A{\beta}$ or
-$\beta\in A{\alpha}$. Then there is a sequence of
-functions $fn\!:{\bf R}{\bf R}$ such that, if $S$ is any uncountable
-subset of **R**, we have $fn(S)={\bf R}$ for all but
-finitely many $fn$.
+for $\alpha\beta$, either $\alpha\in A{\beta}$ or
+$\beta\in A{\alpha}$. Then there is a sequence of
+functions $fn\!:{\bf R}{\bf R}$ such that, if $S$ is any uncountable
+subset of **R**, we have $fn(S)={\bf R}$ for all but
+finitely many $fn$.
 
-Let the countable set $A{\alpha}$ consist of the real numbers
-$$\{\alpha1,\alpha2,\alpha3,\ldots\,\}\,.$$ If $\alpha$ is any real
+Let the countable set $A{\alpha}$ consist of the real numbers
+$$\{\alpha1,\alpha2,\alpha3,\ldots\,\}\,.$$ If $\alpha$ is any real
 number, define an increasing sequence of positive integers
-$\langle lk^{\alpha}\rangle$ by letting $l1^{\alpha}=n1^{\alpha1}$
-and then, after $l{k-1}^{\alpha}$ has been defined, letting
-$lk^{\alpha}$ be the least integer in the sequence
-$\langle n1^{\alphak},n2^{\alphak},
-\ldots\,\rangle$ that is greater than $l{k-1}^{\alpha}$.
+$\langle lk^{\alpha}\rangle$ by letting $l1^{\alpha}=n1^{\alpha1}$
+and then, after $l{k-1}^{\alpha}$ has been defined, letting
+$lk^{\alpha}$ be the least integer in the sequence
+$\langle n1^{\alphak},n2^{\alphak},
+\ldots\,\rangle$ that is greater than $l{k-1}^{\alpha}$.
 
-Let $fn$ be the function on real numbers defined by the rule $$fn()=$$
-We will show that the sequence of functions $fn$ satisfies the theorem,
+Let $fn$ be the function on real numbers defined by the rule $$fn()=$$
+We will show that the sequence of functions $fn$ satisfies the theorem,
 by proving that any set $S$ for which infinitely many $n$ have
-$fn(S){\bf R}$ must be countable.
+$fn(S){\bf R}$ must be countable.
 
-Suppose, therefore, that $\langle nk\rangle$ is an increasing sequence
-of integers and that $\langle tk\rangle$ is a sequence of real numbers
-such that $$tnkfnk(S),.$$ Let $tj=0$ if
-$j$ is not one of the numbers $\{n1,n2,\ldots\}$. By the lemma,
-there’s a real number $\beta$ such that $nk=nk^{\beta}$ and
-$tk=tk^{\beta}$ for all $k$.
+Suppose, therefore, that $\langle nk\rangle$ is an increasing sequence
+of integers and that $\langle tk\rangle$ is a sequence of real numbers
+such that $$tnkfnk(S),.$$ Let $tj=0$ if
+$j$ is not one of the numbers $\{n1,n2,\ldots\}$. By the lemma,
+there’s a real number $\beta$ such that $nk=nk^{\beta}$ and
+$tk=tk^{\beta}$ for all $k$.
 
 Let $\alpha$ be any real number $\beta$ such that
-$\alpha\notin A{\beta}$. We will prove that $\alpha\notin S$; this will
+$\alpha\notin A{\beta}$. We will prove that $\alpha\notin S$; this will
 prove the theorem, because all elements of $S$ must then lie in the
-countable set $A{\beta}\cup
+countable set $A{\beta}\cup
 \{\beta\}$.
 
-By hypothesis, $\beta\in A{\alpha}$. Hence we have $\beta =\alphak$
-for some $k$. If we set $n=lk^{\alpha}$, we know by the definition
-of $fn$ that $$fn(\alpha)=tn^{\alphak}=tn^{\beta}=tn\,.$$ But the
-construction of $lk^{\alpha}$ tells us that $n=nj^{\alphak}
-=nj^{\beta}=nj$ for some $j$. Therefore $$f{nj}(\alpha)=t{nj}\,.$$
-We chose $t{nj}\notin f{nj}(S)$, hence $\alpha\notin S$.
+By hypothesis, $\beta\in A{\alpha}$. Hence we have $\beta =\alphak$
+for some $k$. If we set $n=lk^{\alpha}$, we know by the definition
+of $fn$ that $$fn(\alpha)=tn^{\alphak}=tn^{\beta}=tn\,.$$ But the
+construction of $lk^{\alpha}$ tells us that $n=nj^{\alphak}
+=nj^{\beta}=nj$ for some $j$. Therefore $$f{nj}(\alpha)=t{nj}\,.$$
+We chose $t{nj}\notin f{nj}(S)$, hence $\alpha\notin S$.
 
 The first thing that we learned in class today was that now would be a
 good time to buy Leonard Gillman’s book (*Writing Mathematics
@@ -2316,16 +2316,16 @@ Several answers or excerpts from answers are attached. First is
 Solution A, an unexpurgated draft that was written by your instructor
 before handing out the assignment. The main idea here is to “hold back”
 before enumerating the elements of a set; you can say that $S$ is
-countable without writing $S=\{s1,s2,\ldots\,\}$. This solution also
+countable without writing $S=\{s1,s2,\ldots\,\}$. This solution also
 simplifies Sierpiński’s proof in minor ways. For example, it’s not
 necessary to have the hypothesis $\alpha\beta$ to conclude that
-$\alpha\in A{\beta}$ or $\beta\in A{\alpha}$, because the existence of
-a family $A{\alpha}$ that satisfies Sierpiński’s more complicated
+$\alpha\in A{\beta}$ or $\beta\in A{\alpha}$, because the existence of
+a family $A{\alpha}$ that satisfies Sierpiński’s more complicated
 hypothesis is equivalent to the existence of a family that satisfies the
 simplified one.
 
 The grader objected to the last sentence in the first paragraph of my
-proof. He asks, “Has some ‘initialization’ of $L{\alpha}$ been
+proof. He asks, “Has some ‘initialization’ of $L{\alpha}$ been
 omitted?” He apparently wants $k=1$ to be singled out as a special case,
 for more effective exposition. The sentence makes perfectly good sense
 to me, but maybe there should be a concession to readers who are
@@ -2340,7 +2340,7 @@ In other words, we can hold back in giving notations for a
 correspondence, since plain words are sufficient (even better at times).
 
 Solution B also “factors” the proof into two parts, one that describes a
-subgoal (the crucial property that the functions $fn$ will possess) and
+subgoal (the crucial property that the functions $fn$ will possess) and
 one that applies the coup de grace. Much less must be kept in mind when
 you read a factored proof, because the two pieces have a simple
 interface. Moreover, the reader is told that the proof is “essentially a
@@ -2362,118 +2362,118 @@ Lemma. There is a one-to-one correspondence between the set of all real
 numbers $\alpha$ and the set of all pairs $(N,T)$, where $N$ is a
 countable set of integers and $T$ is a sequence of real numbers.
 
-The set $N$ corresponding to $\alpha$ is called $N{\alpha}$, and the
-sequence $T$ is called $(\alpha1,\alpha2,\ldots\,)$. The set of real
+The set $N$ corresponding to $\alpha$ is called $N{\alpha}$, and the
+sequence $T$ is called $(\alpha1,\alpha2,\ldots\,)$. The set of real
 numbers is called **R**.
 
 Theorem. Assume that there is an uncountable family of countable
-subsets $A{\alpha}$, one for each real number $\alpha$, with the
-property that either $\alpha\in A{\beta}$ or $\beta\in A{\alpha}$ for
+subsets $A{\alpha}$, one for each real number $\alpha$, with the
+property that either $\alpha\in A{\beta}$ or $\beta\in A{\alpha}$ for
 all real $\alpha$ and $\beta$. Then there exists a countable family $F$
 of functions $f\!:{\bf R}{\bf R}$ such that, if $S$ is any uncountable
 subset of **R**, we have $f(S)={\bf R}$ for all but
 finitely many $f\in F$.
 
 If $\alpha$ is any real number, we can construct a countable set of
-integers $L{\alpha}$ as follows: For $k=1,2,\ldots\,$, let $\beta$ be
-the $k^{\rm th}$ element of $A{\alpha}$, in some enumeration of this
-countable set. Include in $L{\alpha}$ any element of $N{\beta}$ that’s
-not already present in $L{\alpha}$ because of the first $k-1$ elements
-of $A{\alpha}$.
+integers $L{\alpha}$ as follows: For $k=1,2,\ldots\,$, let $\beta$ be
+the $k^{\rm th}$ element of $A{\alpha}$, in some enumeration of this
+countable set. Include in $L{\alpha}$ any element of $N{\beta}$ that’s
+not already present in $L{\alpha}$ because of the first $k-1$ elements
+of $A{\alpha}$.
 
-Now let $F=\{f1,f2,\ldots\}$ be the countable set of functions defined
-for all real $\alpha$ as follows: $$fn()=$$ We will show that $F$
+Now let $F=\{f1,f2,\ldots\}$ be the countable set of functions defined
+for all real $\alpha$ as follows: $$fn()=$$ We will show that $F$
 satisfies the theorem, by proving that any given set $S\subseteq R$ is
-countable whenever $\{\,n\mid fn(S){\bf R}\,\}$ is infinite.
+countable whenever $\{\,n\mid fn(S){\bf R}\,\}$ is infinite.
 
-Let $S$ be a set such that $N=\{\,n\mid fn(S){\bf R}\,\}$ is infinite,
-and suppose that $$tnfn(S),.$$ Let $tn=0$ for $n\notin N$. By the
-lemma, there is a real number $\beta$ such that $N=N{\beta}$ and
-$(t1,t2,\ldots\,)=(\beta1,\beta2,\ldots\,)$.
+Let $S$ be a set such that $N=\{\,n\mid fn(S){\bf R}\,\}$ is infinite,
+and suppose that $$tnfn(S),.$$ Let $tn=0$ for $n\notin N$. By the
+lemma, there is a real number $\beta$ such that $N=N{\beta}$ and
+$(t1,t2,\ldots\,)=(\beta1,\beta2,\ldots\,)$.
 
-Let $\alpha$ be any real number such that $\alpha\notin A{\beta}$. We
+Let $\alpha$ be any real number such that $\alpha\notin A{\beta}$. We
 will prove that $\alpha\notin S$; this will prove the theorem, because
-all elements of $S$ then must lie in the countable set $A{\beta}$.
+all elements of $S$ then must lie in the countable set $A{\beta}$.
 
-By hypothesis, $\beta\in A{\alpha}$. Hence there is some
-$n\in L{\alpha}$ corresponding to $\beta$, and $fn(\alpha)=\betan$ by
-definition of $fn$. Also $n\in N{\beta}=N$, by the construction
-of $L{\alpha}$. But $\betan=tn\notin fn(S)$, so $\alpha$ cannot be
+By hypothesis, $\beta\in A{\alpha}$. Hence there is some
+$n\in L{\alpha}$ corresponding to $\beta$, and $fn(\alpha)=\betan$ by
+definition of $fn$. Also $n\in N{\beta}=N$, by the construction
+of $L{\alpha}$. But $\betan=tn\notin fn(S)$, so $\alpha$ cannot be
 in $S$.
 
 **Sierpiński’s Theorem**
 
 Lemma. There is a one-to-one correspondence between the set of all real
 numbers $\alpha$ and the set of all sequences of ordered pairs
-$\langle(nl,tl)\rangle{l1}$, where the first components
-$\langle nl\rangle$ form an increasing sequence of positive integers
+$\langle(nl,tl)\rangle{l1}$, where the first components
+$\langle nl\rangle$ form an increasing sequence of positive integers
 and the second components $\langle
-tl\rangle$ form a sequence of real numbers.
+tl\rangle$ form a sequence of real numbers.
 
 We shall call the sequence of ordered pairs corresponding to $\alpha$
 the *counterpart* of $\alpha$, and vice versa.
 
 Theorem. Suppose that there exists a family of countably infinite
 subsets of the reals **R**, denoted by
-$\langle A{\alpha}\rangle{\alpha\in{\bf R}}$, with the property that
-$\alpha\beta$ implies either $\alpha\in A{\beta}$ or
-$\beta\in A{\alpha}$. Then there is a sequence of functions
-$fn$: ${\bf R}{\bf R}$ such that for any uncountable subset $S$
-of **R**, we have $fn(S)={\bf R}$ for all but finitely
-many $fn$.
+$\langle A{\alpha}\rangle{\alpha\in{\bf R}}$, with the property that
+$\alpha\beta$ implies either $\alpha\in A{\beta}$ or
+$\beta\in A{\alpha}$. Then there is a sequence of functions
+$fn$: ${\bf R}{\bf R}$ such that for any uncountable subset $S$
+of **R**, we have $fn(S)={\bf R}$ for all but finitely
+many $fn$.
 
-Using the existence of $\langle A{\alpha}\rangle{\alpha\in{\bf R}}$,
-we first construct a sequence of functions $fn$ with the property that
-for all $\alpha$, and for all $\beta\in A{\alpha}$, there exists an
+Using the existence of $\langle A{\alpha}\rangle{\alpha\in{\bf R}}$,
+we first construct a sequence of functions $fn$ with the property that
+for all $\alpha$, and for all $\beta\in A{\alpha}$, there exists an
 ordered pair $(n,t)$ in the counterpart of $\beta$ such that
-$fn(\alpha)=t$. The construction is essentially a diagonalization
-technique. For each $\alpha$, let the countable set $A{\alpha}$ be
-enumerated as $$\{\beta1,\beta2,\beta3,\ldots\,\}\,.$$ Start with
-$(n1,t1)$ being the first ordered pair in the counterpart
-of $\beta1$. Proceed inductively, and let $(nk,tk)$ be the first
-ordered pair in the counterpart of $\betak$ such that $nk>n{k-1}$.
+$fn(\alpha)=t$. The construction is essentially a diagonalization
+technique. For each $\alpha$, let the countable set $A{\alpha}$ be
+enumerated as $$\{\beta1,\beta2,\beta3,\ldots\,\}\,.$$ Start with
+$(n1,t1)$ being the first ordered pair in the counterpart
+of $\beta1$. Proceed inductively, and let $(nk,tk)$ be the first
+ordered pair in the counterpart of $\betak$ such that $nk>n{k-1}$.
 This selection can be made because the first component of the
-counterpart of $\betak$ is unbounded. Thus, we have constructed a
-sequence of ordered pairs $\langle(nk,tk)\rangle{t1}$ with $nk$
-increasing and each $(nk,tk)$ in the counterpart of $\betak$. Using
-this sequence, we then define the function $fn$ by the rule $$fn()=$$
-Indeed, $fn$ is well-defined since $ninj$ for $ij$. Moreover, the
-sequence $\langle fn\rangle$ has the desired property that for
-every $\alpha$ and every $\beta$ in $A{\alpha}$, there is an ordered
-pair $(n,t)$ in the counterpart of $\beta$ such that $fn(\alpha)=t$.
+counterpart of $\betak$ is unbounded. Thus, we have constructed a
+sequence of ordered pairs $\langle(nk,tk)\rangle{t1}$ with $nk$
+increasing and each $(nk,tk)$ in the counterpart of $\betak$. Using
+this sequence, we then define the function $fn$ by the rule $$fn()=$$
+Indeed, $fn$ is well-defined since $ninj$ for $ij$. Moreover, the
+sequence $\langle fn\rangle$ has the desired property that for
+every $\alpha$ and every $\beta$ in $A{\alpha}$, there is an ordered
+pair $(n,t)$ in the counterpart of $\beta$ such that $fn(\alpha)=t$.
 
 Now we show that any subset $S$ of **R** for which
-infinitely many $n$ have $fn(S){\bf R}$ must be countable, thereby
-proving the theorem. If $fn(S){\bf R}$ then there exists a real
-$t\notin fn(S)$. So if there are infinitely many $fn$ such that
-$fn(S){\bf R}$, then there is a sequence of ordered pairs $(n,t)$ with
-$n$ increasing and $t\notin fn(S)$. Let the counterpart of this
+infinitely many $n$ have $fn(S){\bf R}$ must be countable, thereby
+proving the theorem. If $fn(S){\bf R}$ then there exists a real
+$t\notin fn(S)$. So if there are infinitely many $fn$ such that
+$fn(S){\bf R}$, then there is a sequence of ordered pairs $(n,t)$ with
+$n$ increasing and $t\notin fn(S)$. Let the counterpart of this
 sequence of ordered pairs be $\beta$. Thus, every ordered pair $(n,t)$
-in the counterpart of $\beta$ has $t\notin fn(S)$. Now consider all
-real $\alpha\notin A{\beta}\cup\{\beta\}$. By the hypothesis, we must
-have $\beta\in A{\alpha}$. We constructed the
-sequence $\langle fn\rangle$ in such a way that there is an ordered
-pair $(n,t)$ in the counterpart of $\beta$ with $fn(\alpha)=t$. But by
-the choice of $\beta$, we have $t\notin fn(S)$. Hence,
-$fn(\alpha)=t\notin fn(S)$ implies $\alpha\notin S$. Therefore
-$S$ must be a subset of $A{\beta}\cup\{\beta\}$, a countable set,
+in the counterpart of $\beta$ has $t\notin fn(S)$. Now consider all
+real $\alpha\notin A{\beta}\cup\{\beta\}$. By the hypothesis, we must
+have $\beta\in A{\alpha}$. We constructed the
+sequence $\langle fn\rangle$ in such a way that there is an ordered
+pair $(n,t)$ in the counterpart of $\beta$ with $fn(\alpha)=t$. But by
+the choice of $\beta$, we have $t\notin fn(S)$. Hence,
+$fn(\alpha)=t\notin fn(S)$ implies $\alpha\notin S$. Therefore
+$S$ must be a subset of $A{\beta}\cup\{\beta\}$, a countable set,
 implying that $S$ is also a countable set.
 
-…If the real number $\alpha$ corresponds to the pair $\bigl(\langle nk
-\rangle,\langle tk\rangle\bigr)$, then we call
-$\langle nk\rangle{k1}$ the *integer sequence*
-of $\alpha$ and $\langle tk\rangle{k1}$ the *real
+…If the real number $\alpha$ corresponds to the pair $\bigl(\langle nk
+\rangle,\langle tk\rangle\bigr)$, then we call
+$\langle nk\rangle{k1}$ the *integer sequence*
+of $\alpha$ and $\langle tk\rangle{k1}$ the *real
 sequence* of $\alpha$.
 
 …**Proof.** Note that a given real number $\alpha$ has
 associated with it both integer and real sequences, as well as a set of
-reals $A{\alpha}=\{\alpha1,
-\alpha2,\alpha3,\ldots\,\}$. We add to this list and construct an
-infinite set of integers $L{\alpha}=\{l1,l2,l3,\ldots\,\}$ in which
-each $li$ comes from the integer sequence of $\alphai$.
+reals $A{\alpha}=\{\alpha1,
+\alpha2,\alpha3,\ldots\,\}$. We add to this list and construct an
+infinite set of integers $L{\alpha}=\{l1,l2,l3,\ldots\,\}$ in which
+each $li$ comes from the integer sequence of $\alphai$.
 
-…$$fn()=$$ With these functions we will establish the contrapositive of
-the theorem: If $fn(S){\bf R}$ for infinitely many integers $n$, then
+…$$fn()=$$ With these functions we will establish the contrapositive of
+the theorem: If $fn(S){\bf R}$ for infinitely many integers $n$, then
 $S$ is countable. …
 
 As a step toward proving the Continuum Hypothesis, which states that
@@ -3160,7 +3160,7 @@ finishes the proof.
 
 The last things that Wilf discussed were two handouts (§28
 and §29 below): “Enumeration of orbits of mappings under
-action of $Cn$, the cyclic group,” and “Counting necklaces.” Each
+action of $Cn$, the cyclic group,” and “Counting necklaces.” Each
 handout discusses the same mathematical problem, solved the same way.
 “Enumeration of …” takes a half page; “Counting Necklaces” takes four
 pages.
@@ -4092,8 +4092,8 @@ may not have in common. “Be aware of what’s diverse in your readership.”
 
 We saw a somewhat intimidating multi-part definition. It would become
 less formidable to the reader if shortened. In this particular case, the
-expression $$W1W2\ato W3$$ could have been condensed to
-$$W1\pto W3$$ since $W2$ is used nowhere else. (In the
+expression $$W1W2\ato W3$$ could have been condensed to
+$$W1\pto W3$$ since $W2$ is used nowhere else. (In the
 Haddad-Schäffer paper, ‘$\ast$’ means ‘zero or more’ and ‘$+$’ means
 ‘one or more’, but let’s not worry about that here.) Try to be succinct,
 said Don: “Less is more.”
@@ -4150,19 +4150,19 @@ draw breath.
 The word ‘loop’ was ambiguous when first used; Don replaced it by
 ‘self-loop’.
 
-A sentence in the paper began “If any $Hj$ ($j>0$) has …”. In fact it
-was known that $H0$ satisfies the stated condition, so Don suggested
+A sentence in the paper began “If any $Hj$ ($j>0$) has …”. In fact it
+was known that $H0$ satisfies the stated condition, so Don suggested
 that the authors simplify the statement by omitting the $j>0$ condition.
 Moral: Give a simple rule rather than an optimal one.
 
-Elsewhere we saw “…all the $Hj$’s …”. This is of course the standard
+Elsewhere we saw “…all the $Hj$’s …”. This is of course the standard
 way to form the plural of a symbol, but you are going to get into
-trouble when you start also using the construct $Hj'$ (that is, $Hj$
-primed). A simple way to avoid the problem is just to say: “…each $Hj$
+trouble when you start also using the construct $Hj'$ (that is, $Hj$
+primed). A simple way to avoid the problem is just to say: “…each $Hj$
 is …”. Alternatively, you might want to invent another name for the
 concept, particularly if you are going to be using it time and time
 again. It’s just not elegant to have too many symbols crowded on the
-page. At one point the authors wrote “…of $Hj$s descendants …”. This
+page. At one point the authors wrote “…of $Hj$s descendants …”. This
 doesn’t work at all; you do need an apostrophe for the genitive
 (possessive) case.
 
