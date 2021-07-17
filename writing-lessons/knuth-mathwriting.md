@@ -36,8 +36,8 @@ The preparation of this report was supported in part by NSF grant CCR-8610181.
 ## Table of Contents
 
 1. [Minicourse on technical writing](knuth-mathwriting-ch1.md)
-2. An exercise on technical writing
-3. An answer to the exercise
+2. [An exercise on technical writing](knuth-mathwriting-ch2.md)
+3. [An answer to the exercise](knuth-mathwriting-ch3.md)
 4. Comments on student answers (1)
 5. Comments on student answers (2)
 6. Preparing books for publication (1)
